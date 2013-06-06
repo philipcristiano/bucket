@@ -1,0 +1,12 @@
+{application, bucket,
+ [
+  {description, "Token Bucket"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { bucket_app, []}},
+  {env, []}
+ ]}.

@@ -1,5 +1,7 @@
-.eunit
-deps
-*.o
-*.beam
-*.plt
+/deps
+/ebin
+/log
+/tmp/dev
+/tmp/test
+erl_crash.dump
+package.tgz
